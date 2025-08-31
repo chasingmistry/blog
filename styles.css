@@ -1,0 +1,167 @@
+/******* body styles *******/
+
+body {
+    padding-top: 60px; 
+    font-family: "Manrope", sans-serif;
+    font-weight: 350; 
+    font-style: normal;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #2B2111;
+}
+
+.content {
+    margin-top: 80px;
+    text-align: center;
+    padding: 50px 10%;
+}
+
+h1 {
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #594B02;
+}
+
+h2 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+    color: #2B2111;
+}
+
+.italiana-regular {
+    font-family: "Italiana", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.manrope {
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: normal;
+    color: #2B2111;
+}
+
+body.home {
+    background-image: url("img/background.jpeg"); 
+    background-size: cover;     
+    background-position: center 150px;
+    background-repeat: no-repeat;
+}
+
+.nav-right {
+    color: black;
+    text-decoration: none;
+    font-weight: 700; 
+    color: #2B2111;
+    white-space: nowrap;
+}
+
+a {
+  color: #594B02; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #2B2111; 
+  text-decoration: underline; 
+}
+
+/******* about me *******/
+
+#aboutme {
+    margin-top: 20px; /* reduce space below navbar */
+}
+
+/******* navbar Styles *******/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    position: fixed;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+.nav-left {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    margin-left: -40px;
+}
+
+.nav-left li {
+    margin-right: 20px;
+}
+
+.nav-left a {
+    color: #2B2111;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/******* blog *******/
+
+#blog {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 80px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.blog-image {
+    border-radius: 20px; 
+    border: 0.5px solid #2B2111;
+    margin-top: 20px;
+}
+
+.baking-image {
+            border-radius: 10px; 
+            border: 0.5px solid #2B2111;
+            margin-top: 20px;
+            width: 100%;
+            height: 540px; 
+            object-fit: cover;
+        }
+
+/******* footer *******/
+
+footer {
+  padding: 40px 10%;
+  background-color: #2B2111;
+  color: floralwhite;
+  margin-top: 60px;
+}
+
+.footer-links a {
+  margin: 0 6px;
+  color: floralwhite;
+}
+
+.footer-links a:first-child {
+  margin-left: 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

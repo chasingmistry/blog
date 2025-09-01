@@ -77,6 +77,19 @@ a:hover {
     margin-top: 20px; /* reduce space below navbar */
 }
 
+#aboutme h2 {
+  margin-bottom: 40px; /* Space under About Me heading */
+}
+
+#aboutme p {
+  margin-bottom: 40px; /* Space under About Me paragraph */
+}
+
+#aboutme {
+  padding-bottom: 40px; /* Space below whole section */
+}
+
+
 /******* navbar Styles *******/
 
 .navbar {
@@ -133,13 +146,14 @@ a:hover {
 }
 
 .baking-image {
-            border-radius: 10px; 
-            border: 0.5px solid #2B2111;
-            margin-top: 20px;
-            width: 100%;
-            height: 540px; 
-            object-fit: cover;
-        }
+  border-radius: 10px; 
+  border: 0.5px solid #2B2111;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;  
+}
+
 
 /******* footer *******/
 

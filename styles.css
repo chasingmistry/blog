@@ -1,64 +1,72 @@
 /******* body styles *******/
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-    padding-top: 40px; 
-    font-family: "Manrope", sans-serif;
-    font-weight: 350; 
-    font-style: normal;
-    font-size: 14px;
-    background-color: #FFFFFF;
-    color: #2B2111;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px; 
+  font-family: "Manrope", sans-serif;
+  font-weight: 350; 
+  font-style: normal;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  color: #2B2111;
 }
 
 .content {
-    margin-top: 80px;
-    text-align: center;
-    padding: 50px 10%;
+  flex: 1;
+  margin-top: 80px;
+  text-align: center;
+  padding: 50px 10%;
 }
 
 h1 {
-    font-family: "Italiana", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    color: #594B02;
+  font-family: "Italiana", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #594B02;
 }
 
 h2 {
-    font-family: "Manrope", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 24px;
-    color: #2B2111;
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 24px;
+  color: #2B2111;
 }
 
 .italiana-regular {
-    font-family: "Italiana", serif;
-    font-weight: 200;
-    font-style: normal;
+  font-family: "Italiana", serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .manrope {
-    font-family: "Manrope", sans-serif;
-    font-size: 15px;
-    font-weight: 200;
-    font-style: normal;
-    color: #2B2111;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: normal;
+  color: #2B2111;
 }
 
 body.home {
-    background-image: url("img/background.jpeg"); 
-    background-size: cover;     
-    background-position: center 150px;
-    background-repeat: no-repeat;
+  background-image: url("img/background.jpeg"); 
+  background-size: cover;     
+  background-position: center 150px;
+  background-repeat: no-repeat;
 }
 
 .nav-right {
-    color: black;
-    text-decoration: none;
-    font-weight: 700; 
-    color: #2B2111;
-    white-space: nowrap;
+  color: black;
+  text-decoration: none;
+  font-weight: 700; 
+  color: #2B2111;
+  white-space: nowrap;
 }
 
 a {
@@ -74,75 +82,69 @@ a:hover {
 /******* about me *******/
 
 #aboutme {
-    margin-top: 20px; /* reduce space below navbar */
+  margin-top: 20px;
+  padding-bottom: 40px;
 }
 
 #aboutme h2 {
-  margin-bottom: 40px; /* Space under About Me heading */
+  margin-bottom: 40px;
 }
 
 #aboutme p {
-  margin-bottom: 40px; /* Space under About Me paragraph */
+  margin-bottom: 40px;
 }
 
-#aboutme {
-  padding-bottom: 40px; /* Space below whole section */
-}
-
-
-/******* navbar Styles *******/
+/******* navbar styles *******/
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 10%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 1000;
-    position: fixed;
-    flex-wrap: nowrap;
-    background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 10%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  flex-wrap: nowrap;
+  background-color: white;
 }
 
 .nav-left {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    margin-left: -40px;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  margin-left: -40px;
 }
 
 .nav-left li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .nav-left a {
-    color: #2B2111;
-    text-decoration: none;
-    font-size: 15px;
+  color: #2B2111;
+  text-decoration: none;
+  font-size: 15px;
 }
-
 
 /******* blog *******/
 
 #blog {
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 80px;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .blog-image {
-    border-radius: 20px; 
-    border: 0.5px solid #2B2111;
-    margin-top: 20px;
+  border-radius: 20px; 
+  border: 0.5px solid #2B2111;
+  margin-top: 20px;
 }
 
 .baking-image {
@@ -153,7 +155,6 @@ a:hover {
   height: auto;
   object-fit: cover;  
 }
-
 
 /******* footer *******/
 
